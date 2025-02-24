@@ -8,15 +8,16 @@ School: Pembina Trails Collegiate (PTC)
 
 Date Last Modified:  2025-02-25-->
 <!DOCTYPE html>
+<!--The lang attriibute sets the language for the website-->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime</title>
-    <link href="https://fonts.google.com/share?selection.family=Maven+Pro:wght@400..900" rel="stylesheet">
-    <link href="https://fonts.google.com/share?selection.family=Manrope:wght@200..800|Maven+Pro:wght@400..900 " rel="stylesheet">
-    <style>     
-    nav {
+    <meta charset="UTF-8"><!--UTF-8 supports most characters and symbols-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Set the viewport to ensure the page is responsive on mobile devices and adjusts the scale-->
+    <title>Anime</title><!--This is the title that would show up in the tab-->
+    <link href="https://fonts.google.com/share?selection.family=Maven+Pro:wght@400..900" rel="stylesheet"> <!--Link to the font that can be used in the website-->
+    <link href="https://fonts.google.com/share?selection.family=Manrope:wght@200..800|Maven+Pro:wght@400..900 " rel="stylesheet"> <!--Link to the font that can be used in the website-->
+    <style> 
+    nav {/*Design for the navigation bar*/
         background-color: #eda64a;
         overflow: hidden;
     }
@@ -69,29 +70,29 @@ Date Last Modified:  2025-02-25-->
         h1{
             font-size: 5em;
         }
-        #excluded {
+        #excluded { /*Style specifically for one image */
             border-radius: 100%; 
             width: 200px;
             height: 250px;
         }
         .image-text-container {
             display: flex;
-            align-items: center;  /* Vertically center the text and image */
+            align-items: center;  
             margin-top: 20px;
         }
 
         .image-text-container p {
-            margin-left: 20px;  /* Adds space between the image and the text */
+            margin-left: 20px;  /* Adds space between the image and the text on the left */
             font-size: 120%;
         }
         form {
             background-color: #edba6daf;
             padding: 20px;
-            border-radius: 50px;
+            border-radius: 50px; /* Makes the corners round */
             width: 46.68%;
             height: 420px;
             box-shadow: 0 0 10px #6b563c;
-            float:right;
+            float:right; /* moves the form to the right */
             margin-left: 20px;
             margin-top: 0px;
         }
@@ -106,7 +107,7 @@ Date Last Modified:  2025-02-25-->
             display: block;
             margin-bottom: 8px;
         }
-        input[type="text"], textarea {
+        input[type="text"], textarea { /* Style for the text input and text area in form*/
             width: 100%;
             padding: 8px;
             margin-bottom: 10px;
@@ -114,11 +115,11 @@ Date Last Modified:  2025-02-25-->
             border-radius: 4px;
             font-size: 1em;
         }
-        textarea {
+        textarea { /* Style for the text area specifically in form*/
             height: 40px;
             font-family: 'Maven Pro', sans-serif;
         }
-        button {
+        button { /* Style for the button in the form*/
             background-color: #eda64a;
             color: white;
             padding: 10px 20px;
@@ -136,36 +137,36 @@ Date Last Modified:  2025-02-25-->
             width: 100%;
             margin: 20px auto;
             text-align: center;
-            box-shadow: 0 0 5px rgba(95, 66, 22, 0.582);
-            border-collapse: collapse;
+            box-shadow: 0 0 5px rgba(95, 66, 22, 0.582); /* Adds a shadow to the table */
+            border-collapse: collapse; /* no space in the border*/
             margin-top: -30px;
         }
 
-        table th, table td {
-            padding: 10px;
+        table th, table td { /* Styles the table header and data*/
+            padding: 10px; /* Adds space between the content and the border */
             border: 1px solid #896b6b;
         }
 
-        table th {
+        table th {/* Style for the table header*/
             background-color: #7d674b;
             color: white;
             font-weight: bold;
         }
 
-        table tbody tr:nth-child(even) {
+        table tbody tr:nth-child(even) {/* Styles the even rows in the table*/
             background-color: #f9f9f9;
         }
-        table tbody tr:nth-child(odd) {
+        table tbody tr:nth-child(odd) {/* Styles the odd rows in the table*/
             background-color: #e0d6ca;
         }
 
-        table caption {
+        table caption {/* Styles the caption of the table*/
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px 0;
         }
 
-        footer{
+        footer{/* Style for the footer*/
             background-color: #4b4238;
             color: white;
             padding: 20px;
@@ -174,7 +175,7 @@ Date Last Modified:  2025-02-25-->
         footer p{
             text-align: center;
         }
-        footer h2{
+        footer h2{/* Style for the heading in the footer*/
             margin: 20px;
             font-size: 35px;
             text-decoration: overline underline;
@@ -195,28 +196,30 @@ Date Last Modified:  2025-02-25-->
 </head>
 <body style="background-color: #f7e6d2; background-image: linear-gradient(#faecdb,#bd9c7a,#faecdb);">
 <main>
-    <nav>
+    <nav><!--Navigation bar-->
         <div class="nav-item"><a href="index.html">Home</a></div>
-        <div class="nav-item"><a href="index1.html">History</a></div>
+        <div class="nav-item"><a href="pags/index1.html">History</a></div>
         <div class="nav-item"><a href="https://myanimelist.net/recommendations.php?s=recentrecs&t=anime">Recommended</a></div>
     </nav>
-    <div class="image-gallery">
+    <div class="image-gallery"><!--main images-->
     <img src="HTMLImages.html/Naruto.jpg" alt="Natuto Image"  style="margin-top: 25px;" >
     <img src="HTMLImages.html/Attack on titan.jpg" alt="Attack On Titan Image" style="margin-top: 25px;">
     <img src="HTMLImages.html/One Peice.jpg" alt="One Peice Image"  style="margin-top: 25px;">
     <img src="HTMLImages.html/Tokyo Revengers.jpg" alt="Alchemist Image" style="margin-top: 25px;">
     <img src="HTMLImages.html/Bleach.jpg" alt="Bleach Image"  style="margin-top: 25px;">
     </div>
+    <article><!--section for the introduction to the anime-->
     <h1 style="margin-top: -20px;margin-bottom: 9px;" >What Is Anime?</h1>
     <fieldset style="background-color: #e7d7c1; padding: 10px; height:250px; margin-bottom: 40px; border-style: groove; border-width: 2px; border-color: #423510 ;">
     <div class="image-text-container">
         <img src="HTMLImages.html/Osamu Tezuka.jpeg" alt="Osamu Tezuka" id="excluded" style="margin-top: -25px;">
         <p style="margin-top: -70px; font-size: 20px;">Anime is a style of animation that originated in Japan, known for its colorful artwork, imaginative worlds, and often complex plots. It covers a wide array of genres, catering to audiences of all ages, from children to adults, with themes ranging from action and fantasy to romance, horror, and slice-of-life. A key figure in shaping modern anime is Osamu Tezuka, often called the "God of Manga," whose work like Astro Boy laid the foundation for the animation and manga industry as we know it today. Tezuka's innovative storytelling and unique art style revolutionized Japanese animation, influencing not only future anime but also global animation trends. He also helped popularize the art of manga, which paved the way for the booming industry of graphic novels. Today, anime has grown into a global phenomenon, influencing pop culture worldwide and leading to massive fandoms, conventions, and adaptations in different media.</p>
     </fieldset>
+    </article>
     </div>
     <table >
-        <caption><strong>Top 5 Most Popular Animes</strong></caption>
-        <thead>
+        <caption><strong>Top 5 Most Popular Animes</strong></caption><!--Caption for the table-->
+        <thead><!--Header for the table-->
             <tr>
                 <th>Rank</th>
                 <th>Anime Title</th>
@@ -226,9 +229,9 @@ Date Last Modified:  2025-02-25-->
                 <th>Rating (IMDb)</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody><!--content of the table-->
             <tr>
-                <td>1</td>
+                <td>1</td><!--content for the table 1st row-->
                 <td>Attack on Titan</td>
                 <td>2013</td>
                 <td>Action, Drama, Fantasy</td>
@@ -236,7 +239,7 @@ Date Last Modified:  2025-02-25-->
                 <td>8.9/10</td>
             </tr>
             <tr>
-                <td>2</td>
+                <td>2</td><!--content for the table 2nd row-->
                 <td>One Piece</td>
                 <td>1999</td>
                 <td>Action, Adventure, Fantasy</td>
@@ -244,7 +247,7 @@ Date Last Modified:  2025-02-25-->
                 <td>8.8/10</td>
             </tr>
             <tr>
-                <td>3</td>
+                <td>3</td><!--content for the table 3rd row-->
                 <td>Naruto Shippuden</td>
                 <td>2007</td>
                 <td>Action, Adventure, Martial Arts</td>
@@ -252,7 +255,7 @@ Date Last Modified:  2025-02-25-->
                 <td>8.6/10</td>
             </tr>
             <tr>
-                <td>4</td>
+                <td>4</td><!--content for the table 4th row-->
                 <td>Dragon Ball Z</td>
                 <td>1989</td>
                 <td>Action, Adventure, Martial Arts</td>
@@ -260,7 +263,7 @@ Date Last Modified:  2025-02-25-->
                 <td>8.7/10</td>
             </tr>
             <tr>
-                <td>5</td>
+                <td>5</td><!--content for the table 5th row-->
                 <td>Fullmetal Alchemist: Brotherhood</td>
                 <td>2009</td>
                 <td>Action, Adventure, Fantasy</td>
@@ -269,7 +272,7 @@ Date Last Modified:  2025-02-25-->
             </tr>
         </tbody>
     </table>
-    <form action="submit_form.php" method="POST">
+    <form action="index.html" method="POST"><!--takes user back to the webpage-->
         <h2 style="font-size: 20px;"><u>Tell Us About Your Favorite Anime!</u></h2>
 
         <label for="anime-name">What is your favorite anime?</label>
@@ -281,7 +284,7 @@ Date Last Modified:  2025-02-25-->
         <label for="questions">Do you have any questions for us?</label>
         <textarea id="questions" name="questions"></textarea>
         <div>
-            <label for="anime-like">How much do you like anime?</label>
+            <label for="anime-like">How much do you like anime?</label><!--scroll bar input-->
             <input type="range" min="1" max="100" value="50" style="width: 100%;"></div>      
 
         <button type="submit">Submit</button>
@@ -294,7 +297,7 @@ Date Last Modified:  2025-02-25-->
     <iframe src="https://www.youtube.com/embed/f-2ec4o7Ba4?si=9bPMEVq48yjzYDv9" title="What is Anime?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen; frameborder="0"; style="width: 48%; height: 300px; margin-top: 2px; margin-left: 2px; border: 2px solid #c09b6b;"></iframe> 
 </main>
     
-    <footer>        
+    <footer>  <!--footer-->
         <h2><strong>Quick Links</strong></h2>
         <a href="index.html">Home</a> 
         <br />
