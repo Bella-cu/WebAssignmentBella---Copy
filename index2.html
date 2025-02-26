@@ -4,8 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style> 
+        nav {/*Design for the navigation bar*/
+            background-color: #eda64a;
+            overflow: hidden;
+        }
+        nav .nav-item {
+            float: left;
+            padding: 14px 20px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        nav .nav-item:hover {
+            
+            background-color: #cb8121;
+            color: rgb(137, 106, 59);
+        }
+        
+        nav .nav-item a {
+        color: inherit; /* Changes the color of all links to a light golden-brown color */
+        text-decoration: none;
+        }
+        nav .nav-item a:hover{
+            color: rgb(137, 106, 59);
+            text-decoration: underline;            
+        }
+        nav::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
 </head>
 <body style="background-color: #caebbc;">
+    <nav><!--Navigation bar-->
+        <div class="nav-item"><a href="index.html">Home</a></div>
+        <div class="nav-item"><a href="index1.html">History</a></div>
+        <div class="nav-item"><a href="https://myanimelist.net/recommendations.php?s=recentrecs&t=anime">Recommended</a></div>
+    </nav>
     <img src="HTMLImages.html/Submit.png" alt="Thank you" style="display: block; margin-left: auto; margin-right: auto; width:150px; margin-top: 10%; margin-bottom: -17%; float: center;">
     <h1 style="text-align: center; margin-top: 20%">Thank you for your feedback.</h1>
 </body>
